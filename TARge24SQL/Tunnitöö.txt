@@ -1,0 +1,19 @@
+1. Minge lingile: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+2. Laadige alla andmebaas nimega: AdventureWorksDW2019.bak
+3. Lugege lehel olev õpetus läbi ja laadige see serverisse.
+NB! Kooli arvuti kasutajad peavad serveri nimeks panema kindlasti: (localdb)\MSSQLLocalDB
+4. Teha päringud AdventureWorksDW2019.bak andmebaasi vastu:
+NB! Tabeleid juurde ei tee, vaid kasutate olemasolevaid tabeleid päringute tegemiseks.
+4.1. Teha üks stored procedure ja kirjeldada, et mida sa soovid sellega pärida.
+4.2. Mis on stored procedure eelised?
+4.3. Teha üks funktsioon. Kirjeldada enda loodud funktsiooni sisu.
+4.4. Kus asuvad süsteemi funktsioonid (pilt sobib)?
+4.5. Kas funktsiooni saab krüpteerida?
+4.6. Loo üks lokaalne temp tabel.
+4.7. Loo üks globaalne temp tabel.
+4.8. Mis on lokaalse ja globaalse temp tabeli vahe?
+4.9. Miks on vaja indeksit?
+4.10.Teha üks indeks enda valikul ja mida sinu loodud indeks teeb?
+4.11.Tee kaks view-d ja üks nendest peab kasutama join-i.
+5. Töö tuleb esitada selliselt, et salvestate koodi osa tekstina ja siis kohe pilt tulemusest.
+6. Töö panna pilverakendusse ja saata link.
