@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+        a:hover {
+            color:#ffffff;
+        }
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 120px;
+        }
+        .contact-container {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: left;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact-container h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #ffffff;
+            text-align: left; 
+        }
+        .contact-details {
+            color: #b5c1ad;
+        }
+        .contact-details p {
+            margin-bottom: 8px;
+            text-align: left;
+        }
+        .map-container {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern Bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100">
+            </div>
+            <div class="nav grid_7">
+                <a href="../index.html">Home</a> / <a href="News.html">News</a> / <a href="Archives.html">Archives</a> / <a href="About.html">About</a> / <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h1 class="news-title">Our location</h1>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.018930497598!2d-0.1277583!3d51.515004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603b14799c783%3A0x3335193ff07996ba!2s71-75%20Shelton%20St%2C%20Covent%20Garden%2C%20London%20WC2H%209JQ%2C%20United%20Kingdom!5e0!3m2!1sen!2see!4v1712020423482!5m2!1sen!2see" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <p><strong>Name:</strong> Editor-in-Chief</p>
+                <p><strong>Address:</strong> 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom</p>
+                <p><strong>Phone:</strong> +(44) 7462045608</p>
+                <p><strong>Email:</strong> <a href="mailto:editor@ej-sport.org">editor@ej-sport.org</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

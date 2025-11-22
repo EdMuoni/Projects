@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+        a:hover {
+            color:#ffffff;
+        }
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            text-align: left;
+            padding-top: 120px;
+        }
+        .news-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .news-item {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .news-image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            border-radius: 5px; 
+        }
+        .news-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+        .card-header {
+            margin-bottom: 5px; 
+        }
+        .card-header h3 {
+            font-size: 1.1em; 
+            margin-top: 0; 
+            margin-bottom: 5px; 
+        }
+        .news-item p {
+            font-size: 0.95em;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern Bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100">
+            </div>
+            <div class="nav grid_7">
+                <a href="../index.html">Home</a> / <a href="News.html">News</a> / <a href="Archives.html">Archives</a> / <a href="About.html">About</a> / <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h1 class="news-title">Latest News</h1>
+        <div class="news-grid">
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/GBXtjMnr4jyXFCR5DaBCjA-650-80.jpg.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>'He lifts the team' – The Tom Pidcock effect at Q36.5 Pro Cycling</h3></p>
+                <p>It's not every day that an Olympic champion, Tour de France stage winner and Classics specialist, in the prime of his career, makes a surprise move out of the WorldTour and into a barely two-year-old ProTeam. But that's exactly what Tom Pidcock did with his late move to Q36.5 Pro Cycling last winter.</p>
+                <p><a href="https://www.cyclingnews.com/features/he-lifts-the-team-the-tom-pidcock-effect-at-q365-pro-cycling/">Continue reading...</a></p>
+            </div>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/UQFvSkYHBDp69JdMonGiRK-650-80.jpg.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>The inevitable march: A vintage Primož Roglič performance at Volta a Catalunya</h3></p>
+                <p>Every once in a while, we are reminded of the basics of professional cycling. The riders who set the standards of stardom are there because they don’t like losing and at certain races a new face emerges who is beginning their quest of climbing the slippery slope to be one of those stars.</p>
+                <p><a href="https://www.cyclingnews.com/features/the-inevitable-march-a-vintage-primoz-roglic-performance-at-volta-a-catalunya-philippa-york-analysis/">Continue reading...</a></p>
+            </div>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/LgZLj6tqhjMYbazB9CBqiC-1890-80.png.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>Sean Kelly's Classics Column</h3></p>
+                <p>After the E3 Saxo Classic and Gent-Wevelgem, it's clear that it's Mathieu van der Poel and Tadej Pogačar vs the rest at the Tour of Flanders on Sunday.</p>
+                <p><a href="https://www.cyclingnews.com/features/sean-kellys-classics-column-mads-pedersen-should-be-very-motivated-but-its-going-to-be-van-der-poel-vs-pogacar-at-the-tour-of-flanders/">Continue reading...</a></p>
+            </div>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/QnKULEYogANXJDsoxxbKSK-650-80.jpg.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>The women's Spring Classics aren't a men's carbon copy</h3></p>
+                <p>If you watch or attend any of the major Spring Classics, from Strade Bianche to Liège-Bastogne-Liège, you'll notice that they all have races for both men and women. It's the norm.</p>
+                <p><a href="https://www.cyclingnews.com/features/the-womens-spring-classics-arent-a-mens-carbon-copy-but-we-cant-keep-adding-races-analysis/">Continue reading...</a></p>
+            </div>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/Mx53DgaJhoet6vY7Kqenki-650-80.jpg.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>'It could have been a stupid move' – Mads Pedersen</h3></p>
+                <p>"Oh shit, fucked up again" was the thought that briefly went through Mads Pedersen's mind as found himself attacking alone almost 60 kilometres from the finish of Gent-Wevelgem on Sunday. It could be a stupid move, he thought.</p>
+                <p><a href="https://www.cyclingnews.com/news/it-could-have-been-a-stupid-move-bold-brave-effort-pays-off-for-mads-pedersen-in-gent-wevelgem/">Continue reading...</a></p>
+            </div>
+            <div class="news-item">
+                <div class="news-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/WKe3bw856EAwTfWwxPkJSa-970-80.jpg.webp" alt="News Image" />
+                </div>
+                <p class="card-header"><h3>Gravel Earth Series: Morgan Aguirre, Toby Perry</h3></p>
+                <p>Jackie has been involved in professional sports for more than 30 years in news reporting, sports marketing and public relations. She founded Peloton Sports in 1998, a sports marketing and public relations agency, which managed projects for Tour de Georgia, Larry H. Miller Tour of Utah and USA Cycling.</p>
+                <p><a href="https://www.cyclingnews.com/races/gravel-earth-series-2025/the-hills-10-event-elite-men-women/results/">Continue reading...</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

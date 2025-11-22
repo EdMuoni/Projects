@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estonian Monthly Salary Calculator</title>
+</head>
+<body>
+    <p><h1>Estonian Monthly Salary Calculator</h1></p>
+
+    <label for="annualGrossSalary"><h2>Annual Gross Salary (in EUR):</h2></label>
+    <input type="number" id="annualGrossSalary" name="annualGrossSalary"><br><br>
+    <button onclick="calculateNetSalary()">Calculate Net Salary</button><br><br>
+
+    <p><h2>Monthly Gross Salary:</h2></p>
+    <p id="monthlyGrossSalary"></p>
+
+    <p><h2>Annual Tax-Free Income:</h2></p>
+    <p id="annualTaxFreeIncome"></p>
+
+    <p><h2>Monthly Tax-Free Income:</h2></p>
+    <p id="monthlyTaxFreeIncome"></p>
+
+    <p><h2>Monthly Income Tax (24%):</h2></p>
+    <p id="monthlyIncomeTax"></p>
+
+    <p><h2>Monthly Net Salary:</h2></p>
+    <p id="monthlyNetSalary"></p>
+
+</body>
+<script>
+    let annualGrossSalaryInput = document.getElementById("annualGrossSalary");
+    let monthlyGrossSalaryDisplay = document.getElementById("monthlyGrossSalary");
+    let annualTaxFreeIncomeDisplay = document.getElementById("annualTaxFreeIncome");
+    let monthlyTaxFreeIncomeDisplay = document.getElementById("monthlyTaxFreeIncome");
+    let monthlyIncomeTaxDisplay = document.getElementById("monthlyIncomeTax");
+    let monthlyNetSalaryDisplay = document.getElementById("monthlyNetSalary");
+
+    function calculateNetSalary() {
+        const annualGrossSalary = parseFloat(annualGrossSalaryInput.value);
+
+        if (isNaN(annualGrossSalary) || annualGrossSalary < 0) {
+            alert("Please enter a valid annual gross salary.");
+            return;
+        }
+
+        monthlyGrossSalaryDisplay.textContent = "";
+        annualTaxFreeIncomeDisplay.textContent = "";
+        monthlyTaxFreeIncomeDisplay.textContent = "";
+        monthlyIncomeTaxDisplay.textContent = "";
+        monthlyNetSalaryDisplay.textContent = "";
+
+        console.log("Starting net salary calculation for annual gross salary:", annualGrossSalary);
+        const annualTaxFreeIncome = calculateAnnualTaxFreeIncome(annualGrossSalary);
+        const monthlyTaxFreeIncome = annualTaxFreeIncome / 12;
+        const monthlyGrossSalary = annualGrossSalary / 12;
+
+        monthlyGrossSalaryDisplay.textContent = "Monthly Gross Salary: " + monthlyGrossSalary.toFixed(2) + " EUR";
+        annualTaxFreeIncomeDisplay.textContent = "Annual Tax-Free Income: " + annualTaxFreeIncome.toFixed(2) + " EUR";
+        monthlyTaxFreeIncomeDisplay.textContent = "Monthly Tax-Free Income: " + monthlyTaxFreeIncome.toFixed(2) + " EUR";
+
+        calculateMonthlyIncomeTax(monthlyGrossSalary, monthlyTaxFreeIncome);
+    }
+
+    function calculateAnnualTaxFreeIncome(annualSalary) {
+        console.log("Method: calculateAnnualTaxFreeIncome. Annual gross salary:", annualSalary);
+        let annualTaxFreeIncome = 0;
+        if (annualSalary <= 14400) {
+            annualTaxFreeIncome = 7848;
+        } else if (annualSalary > 14400 && annualSalary <= 25200) {
+            annualTaxFreeIncome = 7848 - (7848 / 10800) * (annualSalary - 14400);
+        } else {
+            annualTaxFreeIncome = 0;
+        }
+        return annualTaxFreeIncome;
+    }
+
+    function calculateMonthlyIncomeTax(monthlyGrossSalary, monthlyTaxFreeIncome) {
+        console.log("Method: calculateMonthlyIncomeTax. Monthly gross salary:", monthlyGrossSalary, "Monthly tax-free income:", monthlyTaxFreeIncome);
+        const taxableIncome = monthlyGrossSalary - monthlyTaxFreeIncome;
+        const incomeTaxRate = 0.24;
+        let incomeTax = 0;
+        if (taxableIncome > 0) {
+            incomeTax = taxableIncome * incomeTaxRate;
+        }
+        monthlyIncomeTaxDisplay.textContent = "Monthly Income Tax (24%): " + incomeTax.toFixed(2) + " EUR";
+        calculateMonthlyNetSalary(monthlyGrossSalary, incomeTax);
+    }
+
+    function calculateMonthlyNetSalary(monthlyGrossSalary, incomeTax) {
+        const netSalary = monthlyGrossSalary - incomeTax;
+        monthlyNetSalaryDisplay.textContent = "Monthly Net Salary: " + netSalary.toFixed(2) + " EUR";
+        console.log("Monthly Net salary calculated:", netSalary);
+    }
+</script>
+</html>

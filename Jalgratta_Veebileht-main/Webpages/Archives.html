@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+        a:hover {
+            color:#ffffff;
+        }
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            text-align: left; 
+            padding-top: 120px;
+        }
+        .more_articles {
+            margin-bottom: 20px; 
+            padding: 10px 0;
+            border-bottom: 1px solid #555; 
+            color: #ffa500; 
+        }
+        .more_articles h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+        .article_section {
+            margin-bottom: 20px; 
+            padding-bottom: 10px;
+            border-bottom: 1px solid #555;
+        }
+        .article_section h2 {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+            color: #ffa500;
+        }
+        .article_section p {
+            margin-bottom: 5px;
+            color: #ffa500;
+        }
+        .white_line {
+            margin: 10px 0;
+            border-top: 1px solid white;
+        }
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+        .image-container {
+            flex: 1 0 calc(50% - 10px);
+            max-width: calc(50% - 10px);
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern Bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100">
+            </div>
+            <div class="nav grid_7">
+                <a href="../index.html">Home</a> / <a href="News.html">News</a> / <a href="Archives.html">Archives</a> / <a href="About.html">About</a> / <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="more_articles">
+                    <h2><a href="http://127.0.0.1:5500/HTMLANDCSS/Chapter15/zlndex.html">More Articles</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="article_section">
+                    <h2><a href="http://127.0.0.1:5500/HTMLANDCSS/Chapter15/zlndex.html">Latest Issues Since 2010</a></h2>
+                    <div class="image-row">
+                        <div class="image-container">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cyclenews.com%2Fwp-content%2Fuploads%2F2019%2F11%2FCycle-News-Magazine-2019-Issue-46-cover.jpg&f=1&nofb=1&ipt=ffbd698ff265ffe946db74071084589b77b0e80da0711f27dcb2f551e9e9265f&ipo=images" alt="Cycle News 2019 Issue 46 Cover">
+                        </div>
+                    </div>
+                    <p><a href="https://magazine.cyclenews.com/i/1533905-cycle-news-2025-issue-13-april-1/0?">Cycle News 2025 Issue 13 April 1</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/1533625-cycle-news-2025-issue-12-march-25/0?">Cycle News 2025 Issue 12 March 25</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/1533377-cycle-news-2025-issue-11-march-18/0?">Cycle News 2025 Issue 11 March 18</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/1533137-cycle-news-2025-issue-10-march-11/0?">Cycle News 2025 Issue 10 March 11</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/1532929-cycle-news-2025-issue-09-march-4/0?">Cycle News 2025 Issue 09 March 4</a></p>
+                </div>
+
+                <div class="article_section">
+                    <h2><a href="https://www.cyclenews.com/cycle-news-archives/archives-2000s/">Latest Issues Since 2000</a></h2>
+                    <div class="image-row">
+                        <div class="image-container">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cyclenews.com%2Fwp-content%2Fuploads%2F2024%2F11%2FCN47-Cover_47.24-730x483.jpg&f=1&nofb=1&ipt=6c1819c62afc8a66603d8809904125030b2dd509a1501e56a17d5d27e74acebe&ipo=images" alt="Cycle News 2005 Issue 12 Cover">
+                        </div>
+                    </div>
+                    <p><a href="https://magazine.cyclenews.com/i/128409-cycle-news-2006-01-04/0?">Cycle News 2006 Issue 01</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/128408-cycle-news-2005-12-14/0?">Cycle News 2005 Issue 12</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/128407-cycle-news-2005-12-07/0?">Cycle News 2005 Issue 11</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/128406-cycle-news-2005-11-30/0?">Cycle News 2005 Issue 10</a></p>
+                    <div class="white_line"></div>
+                    <p><a href="https://magazine.cyclenews.com/i/128405-cycle-news-2005-11-23/0?">Cycle News 2005 Issue 09</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

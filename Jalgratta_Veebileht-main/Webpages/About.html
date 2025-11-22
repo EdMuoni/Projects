@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center; 
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            min-height: 42vh;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+        a:hover {
+            color:#ffffff;
+        }
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            text-align: center;
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+        }
+        .about-image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .about-image {
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            max-width: 60%;
+            height: auto;
+            display: inline-block;
+        }
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .about-text-container {
+            margin-bottom: 20px;
+            text-align: center;
+            width: 80%;
+        }
+        .about-content {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern Bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100">
+            </div>
+            <div class="nav grid_7">
+                <a href="../index.html">Home</a> / <a href="News.html">News</a> / <a href="Archives.html">Archives</a> / <a href="About.html">About</a> / <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="about-text-container">
+            <h1 class="about-title">About Pedal Faster</h1>
+            <div class="about-image-container">
+                <div class="about-image">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.paul-renaud.com%2Fwp-content%2Fuploads%2F2012%2F11%2Fpedal-fast-e1445854658721.jpg&f=1&nofb=1&ipt=5fa77ba8bf8aa08dc0a5e486a0a24c55803e18d5e53de03f6c827c0e2a9f2107&ipo=images" alt="Cycling Scene" />
+                </div>
+            </div>
+            <p class="about-content">
+                <strong>Pedal Faster</strong> is your premier source for the modern cycling enthusiast. We delve into the heart of bicycle culture, bringing you insightful news, in-depth features, and stunning photography from the world of cycling.
+            </p>
+            <p class="about-content">
+                From the latest bike technology and gear reviews to inspiring stories of riders and races, Pedal Faster keeps you informed and connected to the pulse of the sport. Whether you're a seasoned pro or just starting your cycling journey, we offer content that will fuel your passion and enhance your ride.
+            </p>
+            <p class="about-content">
+                Explore our news section for up-to-the-minute updates, delve into our archives for timeless stories, and connect with the Pedal Faster community. We are dedicated to celebrating the art, science, and joy of cycling.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

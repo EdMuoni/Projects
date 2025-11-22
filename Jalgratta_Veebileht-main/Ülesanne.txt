@@ -1,0 +1,8 @@
+	
+1. Päisemenüüs on lingid ja iga link viib kuskile ja sealt saab tagasi tulla index vaatesse.
+2. Sama on ka olukord More Articles all, kus iga link peab viima pikema artikli teksti juurde ja tagasi saab indexi vaatesse.
+2.1 Kui lähed More Articles all olevasse uudisesse, siis seal peab saama näha pilti ja uudist.
+3. Jaluse menüüs on kaks linki, kus saab peale klikkides minna uude vaatesse ja siis tagasi indexi vaatesse.
+4. Kui leiate veel hyperlinke, siis need tuleb ka ära käsitleda.
+NB! Kõik vaated peavad olema ühesuguse disainiga.
+Pange see töö eraldi repositooriumi alla.
