@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Designer-Wallpaper-Background-21.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            background: url('https://e0.pxfuel.com/wallpapers/943/121/desktop-wallpaper-designer-pink-chanel-laptop.jpg');
+            background-size: cover;
+        }
+
+        .carousel {
+            height: 33vh; 
+        }
+
+        .carousel-inner {
+            height: 100%; 
+        }
+
+        .carousel-item {
+            height: 100%; 
+        }
+
+        .carousel-item img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+
+        .content {
+            max-width: 1500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#">Going Out of Business!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="Kodunetoo/Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 carousel-container">
+        <div id="carouselExampleSlides" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.brandcoparis.com/wp-content/uploads/2022/11/Newsletter-Drouot-Sale-picture-1-1-scaled.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://threadcurve.com/wp-content/uploads/2020/06/fashion-accessories-women-june82020-1-min.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://st3.depositphotos.com/3737897/15139/i/1600/depositphotos_151398930-stock-photo-clothing-and-accessories-for-men.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.creativemarket.com/0.1.0/ps/3708857/1820/1213/m1/fpnw/wm1/afdodkw28sh5b38ntlcgcgpicwjxrh9jm0ufwkbphstmqhslqe1gtgaksibftchc-.jpg?1512820820&s=9649749bf3ade59d1b761296accfbe52" class="d-block w-100" alt="Slide 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlides" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlides" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="content mt-4">
+            <h1 class="text-danger">Welcome to Going Out of Business!</h1>
+            <p class="fs-5 text-light">
+                Don't miss your chance to grab stylish accessories at unbeatable prices. From elegant watches to trendy handbags, 
+                this is your last opportunity to own high-quality products before they're gone forever!
+            </p>
+
+            <h2 class="text-danger">About Going Out of Business!</h2>
+            <p class="fs-5 text-light">
+                At <strong>Going Out of Business!</strong>, we have been passionate about bringing our customers the finest accessories that blend style, elegance, and quality. 
+                For years, we have provided a carefully curated selection of fashion essentials, from sophisticated watches and timeless jewelry to trendy handbags and stylish sunglasses.
+            </p>
+            <p class="fs-5 text-light">
+                As we prepare to close our doors for good, we are offering one final opportunity to shop our collection at unbeatable prices. 
+                This is not just a sale—it’s the last chance to own the accessories you love before they’re gone forever. Every item in our store is priced to sell, and once they’re sold out, they won’t be restocked.
+            </p>
+            <p class="fs-5 text-light">
+                We want to thank our loyal customers for their support over the years. It has been a pleasure serving you and helping you find the perfect accessories to express your unique style. 
+                Don't miss this chance to grab your favorites before they disappear. <strong>Going Out of Business—so shop now before it's too late!</strong>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

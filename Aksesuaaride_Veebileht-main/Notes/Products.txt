@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    
+    <style>
+        body {
+            background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Designer-Wallpaper-Background-21.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            background: url('https://e0.pxfuel.com/wallpapers/943/121/desktop-wallpaper-designer-pink-chanel-laptop.jpg');
+            background-size: cover;
+        }
+
+        .product-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#">Going Out of Business!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-danger" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="Login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="Products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center text-white mb-5">Latest Items on Sale</h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/quinn-woven-clutch-olga-berg-793947.jpg" alt="Clutch Bag">
+                    <h5 class="mt-3">Quinn Woven Clutch</h5>
+                    <p>Handwoven vegan leather clutch with chain strap.</p>
+                    <p class="fw-bold text-danger">$79.99</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/audrey-sequin-top-handle-black-olga-berg-977313.jpg" alt="Sequin Bag">
+                    <h5 class="mt-3">AUDREY Sequin Top Handle Bag</h5>
+                    <p>Shimmering floral sequin bag with a detachable chain.</p>
+                    <p class="fw-bold text-danger">$108.95</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/alexis-leather-crossbody-bag-snake-arlington-milne-694509.webp" alt="Crossbody Bag">
+                    <h5 class="mt-3">Alexis Leather Crossbody Bag</h5>
+                    <p>Premium leather crossbody bag with gold accents.</p>
+                    <p class="fw-bold text-danger">$99.95</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/eye-in-the-sky-gold-earrings-gold-sister-941110.jpg" alt="Gold Earrings">
+                    <h5 class="mt-3">Eye In The Sky Gold Earrings</h5>
+                    <p>18k gold vermeil earrings with cubic zirconias.</p>
+                    <p class="fw-bold text-danger">$124.95</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/delight-bracelet-gold-sister-418578.jpg" alt="Bracelet">
+                    <h5 class="mt-3">Delight Bracelet</h5>
+                    <p>Hand-painted ceramic and glass bead bracelet.</p>
+                    <p class="fw-bold text-danger">$59.99</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://stellarosefashions.com.au/cdn/shop/files/cosmopolitan-cocktail-festive-season-sparkling-earrings-plum-petal-590196.jpg" alt="Sparkling Earrings">
+                    <h5 class="mt-3">Cosmopolitan Cocktail Earrings</h5>
+                    <p>Multicolored crystal earrings perfect for parties.</p>
+                    <p class="fw-bold text-danger">$33.95</p>
+                    <button class="btn btn-danger w-100">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

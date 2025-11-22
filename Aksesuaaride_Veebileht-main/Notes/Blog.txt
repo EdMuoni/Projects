@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.technocrazed.com%2Fwp-content%2Fuploads%2F2015%2F12%2FDesigner-Wallpaper-Background-21.jpg&f=1&nofb=1&ipt=a7b358063416ebbd3560e3b945bc850b6a64f718431739a3bfc6216b15ca9deb&ipo=images');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .blog-card {
+            min-height: 500px;
+            background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fe0.pxfuel.com%2Fwallpapers%2F943%2F121%2Fdesktop-wallpaper-designer-pink-chanel-laptop.jpg&f=1&nofb=1&ipt=d6736581f0433fbbf79882ddae9ffa5f69a7560bd2faed836053050bf5b8c7cd&ipo=images');
+        }
+        .blog-card-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        nav {
+            background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fe0.pxfuel.com%2Fwallpapers%2F943%2F121%2Fdesktop-wallpaper-designer-pink-chanel-laptop.jpg&f=1&nofb=1&ipt=d6736581f0433fbbf79882ddae9ffa5f69a7560bd2faed836053050bf5b8c7cd&ipo=images');
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#">Going Out of Business!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="Kodunetoo/Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container blog-container mt-4">
+        <h2 class="text-center text-white mb-5">Latest Blogs</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://i.pinimg.com/originals/90/85/76/9085764df6c2669961f01db5baa7845f.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Hottest Accessories of 2024</h5>
+                        <p class="card-text">Discover the latest trends in accessories and how they can enhance your style.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://images3.alphacoders.com/221/22165.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Why Luxury Watches Are a Great Investment</h5>
+                        <p class="card-text">Explore why high-end watches never go out of style and hold their value.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://dlp2gfjvaz867.cloudfront.net/product_photos/75171258/file_92a68f4803_original.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 5 Designer Handbags You Must Own</h5>
+                        <p class="card-text">A curated list of the best designer handbags that are worth the investment.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://img.whitevictoria.com/The%20Ultimate%20Guide%20to%20Choosing%20the%20Perfect%20Pearl%20Jewelry-25.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Choose the Perfect Jewelry</h5>
+                        <p class="card-text">Find out how to pick jewelry that complements your personal style.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://i.pinimg.com/originals/3d/37/a6/3d37a69720f58fb996853f25b264cc40.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Evolution of Fashion Accessories</h5>
+                        <p class="card-text">Take a deep dive into how accessories have changed over the decades.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card blog-card overflow-hidden">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd9%2F83%2F6b%2Fd9836b910c80c97f3c420fdde5260242.jpg" class="card-img-top blog-card-img" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Leather Bags: A Timeless Fashion Choice</h5>
+                        <p class="card-text">Discover why leather bags continue to be a must-have in any wardrobe.</p>
+                        <a href="#" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

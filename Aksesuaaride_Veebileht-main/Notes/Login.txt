@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Designer-Wallpaper-Background-21.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            background: url('https://e0.pxfuel.com/wallpapers/943/121/desktop-wallpaper-designer-pink-chanel-laptop.jpg');
+            background-size: cover;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-box input {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#">Going Out of Business!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="http://127.0.0.1:5500/Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="Kodunetoo/Products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2 class="text-danger">Login</h2>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Write username/email here" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Write a password here" required>
+                </div>
+                <button type="submit" class="btn btn-danger w-100">Login</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
