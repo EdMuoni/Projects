@@ -1,0 +1,34 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConcertJournal.MainPage"
+             xmlns:controls="clr-namespace:ConcertJournal.Views.Controls"
+             xmlns:models="clr-namespace:ConcertJournal.Models"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             BackgroundColor="{DynamicResource Background}">
+
+    <Grid RowDefinitions="*,Auto">
+        <ScrollView Grid.Row="0">
+            <Grid RowDefinitions="*,*"
+                  Padding="10">
+                <!--MainContent-->
+                <VerticalStackLayout Grid.Row="0"
+                                     Spacing="20"
+                                     Margin="0,100,0,0">
+                    <Image Source="{DynamicResource Logo}"
+                           MaximumHeightRequest="400"
+                           MaximumWidthRequest="400"
+                           HorizontalOptions="Center"
+                           Margin="10"/>
+                    <Label Text="From small stages to massive festivals &#x0a; log every epic moment right here!" 
+                           HorizontalOptions="Center"
+                           FontFamily="OpenSansItalic"
+                           FontAttributes="Italic"
+                           FontSize="24"
+                           HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+            </Grid>
+        </ScrollView>
+        <!--Navigation bar-->
+        <controls:BottomNavBar Grid.Row="1" />
+    </Grid>
+</ContentPage>

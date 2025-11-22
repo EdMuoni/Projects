@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConcertJournal.Views.Controls.BottomNavBar"
+             x:Name="NavBarView">
+    
+    <Grid BackgroundColor="{DynamicResource NavBarBackground}"
+          Padding="10,5"
+          ColumnDefinitions="*,*,*,*,*"
+          VerticalOptions="End"
+          HorizontalOptions="Fill"
+          HeightRequest="70">
+        
+        <ImageButton
+            Source="{DynamicResource HomeIcon}"
+            Grid.Column="0"
+            Command="{Binding NavigateHomeCommand, Source={x:Reference NavBarView}}"
+            Clicked="OnHomeClicked"
+            HeightRequest="60"
+            WidthRequest="75"
+            Padding="10"/>
+        
+        <ImageButton
+            Source="{DynamicResource ListIcon}"
+            Grid.Column="1"
+            Command="{Binding NavigateListCommand, Source={x:Reference NavBarView}}"
+            Clicked="OnListClicked"
+            HeightRequest="60"
+            WidthRequest="75"
+            Padding="10"/>
+        
+        <ImageButton
+            Source="{DynamicResource PlusIcon}"
+            Grid.Column="2"
+            Command="{Binding NavigateAddCommand, Source={x:Reference NavBarView}}"
+            Clicked="OnAddClicked"
+            HeightRequest="60"
+            WidthRequest="75"
+            Padding="10"/>
+        
+        <ImageButton
+            Source="{DynamicResource StatsIcon}"
+            Grid.Column="3"
+            Command="{Binding NavigateStatisticsCommand, Source={x:Reference NavBarView}}"
+            Clicked="OnStatisticsClicked"
+            HeightRequest="60"
+            WidthRequest="75"
+            Padding="10"/>
+        
+        <ImageButton
+            Source="{DynamicResource SettingsIcon}"
+            Grid.Column="4"
+            Command="{Binding NavigateSettingsCommand, Source={x:Reference NavBarView}}"
+            Clicked="OnSettingsClicked"
+            HeightRequest="60"
+            WidthRequest="75"
+            Padding="10"/>
+
+    </Grid>
+</ContentView>

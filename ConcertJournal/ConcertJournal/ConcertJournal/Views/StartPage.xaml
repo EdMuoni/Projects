@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConcertJournal.Views.StartPage"
+             Title="StartPage">
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        x:Name="MainStack">
+        <!-- Content will be added dynamically from code-behind -->
+        <!--StartPage code will be writen in MainPage.xaml, NOT HERE-->
+    </VerticalStackLayout>
+</ContentPage>
