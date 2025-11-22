@@ -1,2 +1,0 @@
-# Bitcoin-kalkulaator
-Bitcoin-kalkulaator
