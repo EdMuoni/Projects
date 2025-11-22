@@ -1,0 +1,7 @@
+Robert Tarlap  ja Tauno Tipp (moodustasid oma rühma)
+Anneli Sepp (Pole teada kelle rühma ta liitub)
+
+1. Teen projekti ülesannet üksinda või liitun olemasoleva meeskonnaga. NB! Peab küsima õpetaja käest loa!!!
+2. Valisin mängu nagu ussimäng, trips-trall-trull või tetris! (tetris tundub täitsa okey ja hästi tuntud mäng)
+3. Kirjutada readme.md faili valmis, kus väljaseletab selle projekti.
+4. Kolm kasutajalugu
